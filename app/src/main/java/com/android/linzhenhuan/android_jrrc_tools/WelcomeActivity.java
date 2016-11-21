@@ -17,9 +17,19 @@ import android.os.Bundle;
  */
 public class WelcomeActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+    }
+
+
+    private int init_function(){
+        int check=0;
+        //检查网络功能
+
+        return  check;
     }
 }
